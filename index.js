@@ -1,8 +1,14 @@
 'use strict';
 
-const cakeRecipes = require("./cake-recipes.json");
-
 // Your functions here
+async function fetchData() {
+  // Use fetch() to get JSON data from a file
+  const cakeRecipes = await fetch('cake-recipes.json');
+
+  console.log(cakeRecipes);
+}
+
+fetchData();
 
 
 
