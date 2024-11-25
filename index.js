@@ -45,29 +45,29 @@ const displayMenu = () => {
 
 let choice;
 
-do {
-  choice = displayMenu();
+// do {
+//   choice = displayMenu();
 
-  switch (choice) {
-    case 1:
+//   switch (choice) {
+//     case 1:
 
-      break;
-    case 2:
+//       break;
+//     case 2:
 
-      break;
-    case 3:
+//       break;
+//     case 3:
 
-      break;
-    case 4:
+//       break;
+//     case 4:
 
-        break;
-    case 5:
+//         break;
+//     case 5:
 
-      break;
-    case 0:
-      console.log("Exiting...");
-      break;
-    default:
-      console.log("Invalid input. Please enter a number between 0 and 5.");
-  }
-} while (choice !== 0);
+//       break;
+//     case 0:
+//       console.log("Exiting...");
+//       break;
+//     default:
+//       console.log("Invalid input. Please enter a number between 0 and 5.");
+//   }
+// } while (choice !== 0);
