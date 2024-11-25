@@ -6,6 +6,12 @@ async function fetchData() {
   const cakeRecipes = await fetch('cake-recipes.json');
 
   console.log(cakeRecipes);
+
+  cakeRecipes.forEach( cakeRecipe => {
+    console.log(cakeRecipe);
+  });
+
+
 }
 
 fetchData();
